@@ -18,6 +18,9 @@ export default function ProductsList() {
   return (
     <>
       <h1>{product.name}</h1>
+      <h2>{product.description}</h2>
+      <p>Category: {product.category}</p>
+      <p>{product.price}</p>
     </>
   );
 }
